@@ -1,0 +1,30 @@
+{
+  "name": "@bepo65/dayjs-test-issue1577",
+  "version": "1.0.0",
+  "description": "test project for question from dayjs issue #1577",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/*.js",
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "author": "BePo65",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BePo65/dayjs-test-issue1577.git"
+  },
+  "private": false,
+  "dependencies": {
+    "@bepo65/dayjs-demo-submodule": "^1.0.1",
+    "dayjs": "^1.10.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-jsdoc": "^36.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-security-node": "^1.0.14"
+  }
+}
